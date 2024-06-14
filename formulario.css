@@ -1,0 +1,49 @@
+*{
+    /* zeramos tudo as margins e os padding */
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+     /* o ID e quando nos seleciona só um elemento do html  */
+     /* aqui no ID container nos colocamos a distancia que a margin vai ter da tela, assim dando um estilo de "caixa" e mudamos a cor de fundo */
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: gray;
+
+}
+.formulario{
+      /* CLASS é quando nós seleciona variós elementos do html */
+      /* nessa class nos estilizou o conteúdo que tá dentro dessa class, como mudar a cor das letras, a fonte e dar um espaço para nãoficar grudada na linha */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20PX;
+    padding-right: 20px;
+}
+.titulo{
+    /* nessa class mos estilizou os titulos, mudando o tamanho e a fonte */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.campo{
+    /* essa class é para dar um espaçamento das linhas que faz a "caixa" com a borda do fundo */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botao{
+    /* nessa class estilamos o botão, mudando a cor de fundo dele, a cor da letra, a fonte da letra, centralizamos ele e aumentamos o tamanho */
+    background-color: yellow;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+   
+}
+.centralizar_botao{
+    /* aqui centralizamos esssa class */
+    text-align: center;
+}
+#caixa_texto{
+    /* nesse id é para dar um espaço da caixa de texto com a linha, para ela não ficar grudada */
+    margin-left: 10px;
+}

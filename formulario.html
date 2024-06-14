@@ -1,0 +1,133 @@
+<!-- Trabalho sobre estilizaçâo de formulários
+  feito pelo aluno: Octavio Augusto
+  1º AMS
+  Professor: Wesley Otto
+  Dia 12/06/2024                                                -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <meta name="Octávio Augusto">
+   
+
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <header> 
+        <img src="imagen/cabeçalho.jpg" alt="" width="100%"> 
+    </header>
+    <br><br>
+    
+    <main id="container">
+    <div class="formulario">
+         <form action="formulario.html" method="POST">
+                <fieldset>
+                 <legend class="titulo">Detalhes do contato</legend>
+                   <br><br>
+                 <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" name="nome" id="nome">
+                 </div><br>
+
+                 <div class="campo">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <br>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                 </div>
+                 <br><br>
+
+                 <div class="campo">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                 </div>
+                     <br><br>
+
+                 <div class="campo">
+                    <label for="github">GitHub:</label>
+                    <br>
+                    <input type="text" name="github" id="github">
+                 </div>
+                 <br><br>
+
+            </fieldset>
+     </div>
+             <br><br><br><br><br>
+         <div class="formulario">
+            <fieldset>
+                <legend class="titulo">Informações Desenvolvimento</legend>
+                      <br><br>
+                <div class="campo">
+                    <label>De qual lado da aplicação você desenvolve:</label>
+                    <br><br>
+                    <input type="radio" name="devweb" value="froentend" checked>Front-end
+                    <input type="radio" name="devweb" value="backend">Back-end
+                    <input type="radio" name="devweb" value="fullstack">FullStack
+                </div>
+                  <br><br>
+                <div class="campo">
+                    <label for="senioridade">Senioridade:</label>
+                    <select>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Junior</option>
+                        <option>Pleno</option>
+                        <option>Senior</option>
+                    </select>
+                </div>
+                  <br><br>
+                <div class="campo">
+                    <label class="campo-checkbox">Selecione as tecnologias que você utiliza:</label> 
+                    <br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologi1">HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologi1">CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+                    <label for="tecnologi1">Javascript</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia4" value="PHP">
+                    <label for="tecnologi1">PHP</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia5" value="C#">
+                    <label for="tecnologi1">C#</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia6" value="Python">
+                    <label for="tecnologi1">Python</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia7" value="Java">
+                    <label for="tecnologi1">Java</label>
+                </div>
+            </fieldset>
+            <br>
+        </div>
+        
+         <div class="campo">
+            <fieldset class="Formulário">
+            
+                <legend class="titulo">Conte um pouco de sua experência:</legend>
+             
+                <textarea id="caixa_texto" name="experiencia" rows="7" cols="40"></textarea>
+            </fieldset>
+        </div>
+            
+                <br><br>
+             <div class="centralizar_botao" >
+                <button class="botao" type="submit">Concluido</button>
+            </div>
+      
+            <br><br><br>
+        </form>
+
+        </main>
+
+        <footer>    
+            <img src="imagen/rodapé.jpg" alt="" width="100%">   
+        </footer>
+</body>
+
+</html>
